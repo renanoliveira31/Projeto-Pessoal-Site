@@ -115,12 +115,17 @@ section li a:hover {
     margin: 0px 0px 60px 100px;
 }
 
-#Contato {
+#contact {
     background-color: #000000;
 }
 
+#contact .container {
+    display:block;
+    margin-left: 110px;
+}
+
 .social-links img{
-    height: 54px;
+    height: 24px;
 }
 
 .social-links li {
@@ -132,7 +137,7 @@ section li a:hover {
     text-decoration: none;
 }
 
-#Contato .container {
+#contact .container {
     display:block;
 }
 
@@ -148,7 +153,7 @@ form button {
     width: 320px;
     padding: 8px;
     margin-bottom: 8px;
-    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form textarea {
@@ -161,10 +166,11 @@ section h3 {
 }
 
 form button {
-    background-color: #ffe347;
-    color: #ecf0f1;
+    background-color: #a8a8a8;
+    color: White;
     border: none;
     cursor: pointer;
+    font-size:medium;
 }
 
 form button:hover {
